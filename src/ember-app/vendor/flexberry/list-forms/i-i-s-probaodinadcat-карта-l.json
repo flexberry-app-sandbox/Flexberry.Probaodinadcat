@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-probaodinadcat-карта-e",
+  "editForm": "i-i-s-probaodinadcat-карта-e",
+  "external": false,
+  "caption": "Карта",
+  "name": "IISProbaodinadcatКартаL",
+  "className": "КартаL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-probaodinadcat-карта",
+      "modelProjection": "КартаL"
+    }
+  ]
+}

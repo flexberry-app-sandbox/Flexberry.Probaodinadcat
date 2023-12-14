@@ -1,0 +1,104 @@
+﻿{
+  "name": "IISProbaodinadcatВходСотрудника",
+  "modelName": "i-i-s-probaodinadcat-вход-сотрудника",
+  "className": "ВходСотрудника",
+  "nameSpace": "IIS.Probaodinadcat",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "сотрудник",
+      "relatedTo": "i-i-s-probaodinadcat-сотрудник",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "регистрацВхода",
+      "relatedTo": "i-i-s-probaodinadcat-регистрац-входа",
+      "inverse": "входСотрудника"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ВходСотрудникаE",
+      "modelName": "i-i-s-probaodinadcat-вход-сотрудника",
+      "attrs": [],
+      "belongsTo": [
+        {
+          "lookupValue": "ФИО",
+          "lookupValueField": "фИО",
+          "relationName": "Сотрудник",
+          "belongsTo": [
+            {
+              "lookupValue": null,
+              "lookupValueField": null,
+              "relationName": "Сотрудник.Должности",
+              "belongsTo": [
+                {
+                  "lookupValue": null,
+                  "lookupValueField": null,
+                  "relationName": "Сотрудник.Должности.Карта",
+                  "belongsTo": [],
+                  "hidden": false,
+                  "attrs": [
+                    {
+                      "name": "кодКарты",
+                      "caption": "Номер карты",
+                      "hidden": false,
+                      "index": 3
+                    }
+                  ],
+                  "index": -1,
+                  "type": null,
+                  "caption": "",
+                  "name": "карта",
+                  "relatedTo": "i-i-s-probaodinadcat-карта",
+                  "inverse": null
+                }
+              ],
+              "hidden": false,
+              "attrs": [
+                {
+                  "name": "должность",
+                  "caption": "Должность",
+                  "hidden": false,
+                  "index": 2
+                }
+              ],
+              "index": -1,
+              "type": null,
+              "caption": "",
+              "name": "должности",
+              "relatedTo": "i-i-s-probaodinadcat-должности",
+              "inverse": null
+            }
+          ],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "фИО",
+              "caption": "ФИО",
+              "hidden": true,
+              "index": 1
+            }
+          ],
+          "index": 0,
+          "type": "standard",
+          "caption": "Сотрудник",
+          "name": "сотрудник",
+          "relatedTo": "i-i-s-probaodinadcat-сотрудник",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

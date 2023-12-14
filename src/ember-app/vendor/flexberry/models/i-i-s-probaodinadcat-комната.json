@@ -1,0 +1,96 @@
+﻿{
+  "name": "IISProbaodinadcatКомната",
+  "modelName": "i-i-s-probaodinadcat-комната",
+  "className": "Комната",
+  "nameSpace": "IIS.Probaodinadcat",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "количествоМест",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": true,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "номерКомнаты",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": true,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "этаж",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "КомнатаE",
+      "modelName": "i-i-s-probaodinadcat-комната",
+      "attrs": [
+        {
+          "name": "номерКомнаты",
+          "caption": "Номер комнаты",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "этаж",
+          "caption": "Этаж",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "количествоМест",
+          "caption": "Количество мест",
+          "hidden": false,
+          "index": 2
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "КомнатаL",
+      "modelName": "i-i-s-probaodinadcat-комната",
+      "attrs": [
+        {
+          "name": "номерКомнаты",
+          "caption": "Номер комнаты",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "этаж",
+          "caption": "Этаж",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "количествоМест",
+          "caption": "Количество мест",
+          "hidden": false,
+          "index": 2
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

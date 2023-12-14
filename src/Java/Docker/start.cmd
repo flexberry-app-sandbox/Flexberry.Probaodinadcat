@@ -1,0 +1,1 @@
+docker-compose -p probaodinadcat-java up -d

@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Карта",
+      "projection": "КартаL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Должности",
+  "name": "IISProbaodinadcatДолжностиE",
+  "className": "ДолжностиE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-probaodinadcat-должности",
+      "modelProjection": "ДолжностиE"
+    }
+  ]
+}

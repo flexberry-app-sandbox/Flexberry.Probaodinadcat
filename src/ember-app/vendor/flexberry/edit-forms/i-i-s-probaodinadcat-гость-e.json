@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Карта",
+      "projection": "КартаL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Гость",
+  "name": "IISProbaodinadcatГостьE",
+  "className": "ГостьE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-probaodinadcat-гость",
+      "modelProjection": "ГостьE"
+    }
+  ]
+}

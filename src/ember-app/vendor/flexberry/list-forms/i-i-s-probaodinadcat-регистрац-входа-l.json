@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-probaodinadcat-регистрац-входа-e",
+  "editForm": "i-i-s-probaodinadcat-регистрац-входа-e",
+  "external": false,
+  "caption": "Регистрация входа",
+  "name": "IISProbaodinadcatРегистрацВходаL",
+  "className": "РегистрацВходаL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-probaodinadcat-регистрац-входа",
+      "modelProjection": "РегистрацВходаL"
+    }
+  ]
+}

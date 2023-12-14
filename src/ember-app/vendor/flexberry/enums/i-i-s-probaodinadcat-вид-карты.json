@@ -1,0 +1,8 @@
+﻿{
+  "nameSpace": "IIS.Probaodinadcat",
+  "className": "ВидКарты",
+  "enumObjects": {
+    "Универсальная": "Универсальная",
+    "Гостевая": "Гостевая"
+  }
+}
