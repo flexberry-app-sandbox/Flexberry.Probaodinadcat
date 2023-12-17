@@ -28,13 +28,13 @@ export default Controller.extend({
             link: 'i-i-s-probaodinadcat-комната-l',
             caption: i18n.t('forms.application.sitemap.отель.i-i-s-probaodinadcat-комната-l.caption'),
             title: i18n.t('forms.application.sitemap.отель.i-i-s-probaodinadcat-комната-l.title'),
-            icon: 'edit',
+            icon: 'tasks',
             children: null
           }, {
             link: 'i-i-s-probaodinadcat-карта-l',
             caption: i18n.t('forms.application.sitemap.отель.i-i-s-probaodinadcat-карта-l.caption'),
             title: i18n.t('forms.application.sitemap.отель.i-i-s-probaodinadcat-карта-l.title'),
-            icon: 'book',
+            icon: 'building',
             children: null
           }, {
             link: null,
@@ -44,13 +44,13 @@ export default Controller.extend({
               link: 'i-i-s-probaodinadcat-должности-l',
               caption: i18n.t('forms.application.sitemap.отель.персонал.i-i-s-probaodinadcat-должности-l.caption'),
               title: i18n.t('forms.application.sitemap.отель.персонал.i-i-s-probaodinadcat-должности-l.title'),
-              icon: 'folder open',
+              icon: 'tasks',
               children: null
             }, {
               link: 'i-i-s-probaodinadcat-сотрудник-l',
               caption: i18n.t('forms.application.sitemap.отель.персонал.i-i-s-probaodinadcat-сотрудник-l.caption'),
               title: i18n.t('forms.application.sitemap.отель.персонал.i-i-s-probaodinadcat-сотрудник-l.title'),
-              icon: 'briefcase',
+              icon: 'list',
               children: null
             }]
           }, {
@@ -61,6 +61,7 @@ export default Controller.extend({
               link: 'i-i-s-probaodinadcat-гость-l',
               caption: i18n.t('forms.application.sitemap.отель.клиенты.i-i-s-probaodinadcat-гость-l.caption'),
               title: i18n.t('forms.application.sitemap.отель.клиенты.i-i-s-probaodinadcat-гость-l.title'),
+              icon: 'archive',
               children: null
             }]
           }, {
@@ -71,7 +72,7 @@ export default Controller.extend({
               link: 'i-i-s-probaodinadcat-регистрац-входа-l',
               caption: i18n.t('forms.application.sitemap.отель.документы.i-i-s-probaodinadcat-регистрац-входа-l.caption'),
               title: i18n.t('forms.application.sitemap.отель.документы.i-i-s-probaodinadcat-регистрац-входа-l.title'),
-              icon: 'chart bar',
+              icon: 'archive',
               children: null
             }]
           }]
